@@ -1,0 +1,7 @@
+[Stay Browser Content Block Engine 1.0]
+! Title: Do Not Open App
+! Version: 20240810
+! Homepage: https://github.com/shenruisi/adblock/do-not-open-app.txt
+! Disclaimer: This rule list is intended to help users remove elements on web pages that prompt them to download or open an app. Please note that using this rule may impact the normal functionality of the website and could result in the inability to access certain content. We are not responsible for any issues that arise as a result. Users assume all risks associated with using this rule. Please ensure compliance with relevant laws and regulations and respect the intentions of website developers.
+
+||main.m.taobao.com##body > button:nth-child(8)
