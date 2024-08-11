@@ -4,4 +4,48 @@
 ! Homepage: https://github.com/shenruisi/adblock/do-not-open-app.txt
 ! Disclaimer: This rule list is intended to help users remove elements on web pages that prompt them to download or open an app. Please note that using this rule may impact the normal functionality of the website and could result in the inability to access certain content. We are not responsible for any issues that arise as a result. Users assume all risks associated with using this rule. Please ensure compliance with relevant laws and regulations and respect the intentions of website developers.
 
+! taobao
 ||main.m.taobao.com##body > button:nth-child(8)
+||main.m.taobao.com###tcodeSideBar
+
+! jindong
+||m.jd.com###imk2FixedBottom
+
+! csdn
+||csdn.net###csdn-toolbar > div.csdn-toolbar-box > div.rightmenu.clearfix.unlogin > a
+
+! bilibili
+||m.bilibili.com###app > div > div.m-home > div.launch-app-btn.home-float-openapp > div
+||m.bilibili.com####app > div > div.suspension > div > div.m-navbar > div > div.launch-app-btn.m-nav-openapp
+
+! zhihu
+||www.zhihu.com##div.OpenInAppButton
+||www.zhihu.com###root > div > main > div > div:nth-child(1) > div.css-rg1dmv > button
+
+! toutiao
+||m.toutiao.com###root > div > div:nth-child(3) > div
+||m.toutiao.com###top-banner-container > div.open
+
+! bing
+||www.bing.com###bnp\.nid\.64063 > div.bnp_container
+
+! iqiyi
+||m.iqiyi.com###app > div:nth-child(2) > div > div > div:nth-child(3) > div > div.iqyGuide-content
+
+! youku
+||youku.com###app > div > div.callEnd_box
+||youku.com####download_btn
+
+! mangguo
+||m.mgtv.com/###app > div.OpenAppDialog_container__InZw8.with-gray
+
+! qq
+||m.v.qq.com###app > div.at-app-banner > div.at-app-banner__content
+||m.v.qq.com###app > div.header > div > div.open-app
+
+! xiaohongshu
+||www.xiaohongshu.com###app > div > div.launch-app-container
+||www.xiaohongshu.com##div.open-app-btn
+
+! google
+||mail.google.com###speedbump
