@@ -27,7 +27,7 @@
 ||m.toutiao.com###top-banner-container > div.open
 
 ! bing
-||www.bing.com###bnp\.nid\.64063 > div.bnp_container
+||www.bing.com###div.bnp_container
 
 ! iqiyi
 ||m.iqiyi.com###app > div:nth-child(2) > div > div > div:nth-child(3) > div > div.iqyGuide-content
@@ -49,3 +49,4 @@
 
 ! google
 ||mail.google.com###speedbump
+
